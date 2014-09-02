@@ -1,0 +1,63 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, p, div, dt, dd, th, td {
+  font-family: "メイリオ", Meiryo, Helvetica, Arial, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3" !important;
+}
+
+.reveal section img {
+  border: none;
+  margin: 0;
+  background: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+  margin-bottom: 1em;
+  line-height: 1em;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+.reveal h1 {
+  font-size: 3em;
+  line-height: 1.2;
+}
+.reveal h3 {
+  font-size: 1.3em;
+}
+.reveal p {
+  margin-bottom: 1em;
+}
+.reveal ul, .reveal ol {
+  margin: 0 0 1em 1.5em;
+}
+.reveal .sectionBody {
+  padding-top: 1em;
+  text-align: left;
+}
+.reveal .sectionBody .image {
+  position: absolute;
+  width: 260px;
+}
+.reveal .sectionBody .text {
+  padding-left: 280px;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.floatRight {
+  float: right;
+}
+
+.floatLeft {
+  float: left;
+}

@@ -1,0 +1,64 @@
+@import 'compass';
+
+body, h1, h2, h3, h4, h5, h6, p, div, dt, dd, th, td {
+	font-family: "メイリオ", Meiryo, Helvetica, Arial, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3" !important;
+}
+
+.reveal {
+	section {
+		img {
+			border: none;
+			margin: 0;
+			background: none;
+			@include box-shadow(none);
+		}
+	}
+	h1, h2, h3, h4, h5, h6 {
+		margin-bottom: 1em;
+		line-height: 1em;
+		letter-spacing: 0;
+		white-space: nowrap;
+	}
+	h1 {
+		font-size: 3em;
+		line-height: 1.2;
+	}
+	h3 {
+		font-size: 1.3em;
+	}
+	p {
+		margin-bottom: 1em;
+	}
+	ul, ol {
+		margin: 0 0 1em 1.5em;
+	}
+	.sectionBody {
+		padding-top: 1em;
+		text-align: left;
+		.image {
+			position: absolute;
+			width: 260px;
+		}
+		.text {
+			padding-left: 280px;
+		}
+	}
+}
+
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+.left {
+	text-align: left;
+}
+
+.floatRight {
+	float: right;
+}
+.floatLeft {
+	float: left;
+}
+
