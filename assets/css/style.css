@@ -12,17 +12,14 @@ body, h1, h2, h3, h4, h5, h6, p, div, dt, dd, th, td {
   box-shadow: none;
 }
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
-  margin-bottom: 1em;
+  margin-bottom: .5em;
   line-height: 1em;
   letter-spacing: 0;
   white-space: nowrap;
 }
 .reveal h1 {
-  font-size: 3em;
-  line-height: 1.2;
-}
-.reveal h3 {
-  font-size: 1.3em;
+  font-size: 2.25em;
+  line-height: 1;
 }
 .reveal p {
   margin-bottom: 1em;
